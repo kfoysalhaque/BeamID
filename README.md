@@ -1,4 +1,4 @@
-# BeamID: Domain-Adaptive Radio Fingerprinting with MIMO Beamforming Feedback
+# [BeamID: Domain-Adaptive Radio Fingerprinting with MIMO Beamforming Feedback](https://github.com/kfoysalhaque/BeamID/blob/master/BeamID_NetSoft_2026_archived.pdf)
 
 
 This repository implements a domain-adaptive radio fingerprinting framework that uses standard-compliant MIMO beamforming feedback matrices to learn client-discriminative embeddings for fingerprinting radios (Network Interface Cards).
