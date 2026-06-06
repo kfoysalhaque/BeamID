@@ -71,14 +71,14 @@ python train.py Dataset/vmatrices \
   --epochs 30 \
   --batch 128 \
   --lr 1e-3 \
-  --save checkpoint.pt
+  --save checkpoints/checkpoint.pt
 ```
 
 2. Generate the cross-domain adaptation plot:
 
 ```bash
 python viz_cosine_gap_v3.py Dataset/vmatrices \
-  --ckpt checkpoint.pt \
+  --ckpt checkpoints/checkpoint.pt \
   --source 1 2 3 \
   --target 4 \
   --k 15 \
